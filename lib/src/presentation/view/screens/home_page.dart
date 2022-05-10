@@ -352,6 +352,7 @@ class _CharacterList extends ConsumerWidget {
           )
         : favoriteData.when(
             data: (data) {
+              data = data ?? [];
               return ListView(
                 shrinkWrap: true,
                 physics: const ClampingScrollPhysics(),
@@ -361,7 +362,7 @@ class _CharacterList extends ConsumerWidget {
                     CharacterItem(
                       character: item,
                       isFavorite:
-                          data!.contains(item.id.toString()) ? true : false,
+                          data.contains(item.id.toString()) ? true : false,
                     ),
                 ],
               );
