@@ -1,0 +1,20 @@
+{
+  "common": {
+    "app_name": "Rick and Morty",
+    "welcome": "Bienvenido \na Rick and Morty",
+    "welcome_content": "En esta prueba, evaluaremos su capacidad para construir la aplicación mediante el análisis de código \ny la reproducción del siquiente diseño.",
+    "genericError": "Uh-oh!",
+    "genericErrorSubtitle": "Pareces perdido en tu viaje, \nintente de nuevo",
+    "lastKnowLocation": "Última ubicación conocida",
+    "firstSeenIn": "Primera vez visto en",
+    "information": "Información",
+    "gender": "Género",
+    "origin": "Origen",
+    "type": "Tipo",
+    "episodes": "Episodios",
+    "characterInteresting": "Personajes interesantes",
+    "showFavorites": "Mostrar favoritos",
+    "searchCharacter": "Buscar personaje",
+    "removeFilters": "Eliminar filtros"
+  }
+}
